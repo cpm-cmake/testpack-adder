@@ -1,6 +1,7 @@
 #pragma once
 
-#warning this is a test warning 
+// should create a warning with `-Wreturn-type`
+inline int f() {}
 
 namespace adder
 {
