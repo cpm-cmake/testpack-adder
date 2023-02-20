@@ -1,7 +1,7 @@
 #pragma once
 
 // should create a warning with `-Wreturn-type`
-inline int f() {}
+inline int emitWarning(int unused) { }
 
 namespace adder
 {
